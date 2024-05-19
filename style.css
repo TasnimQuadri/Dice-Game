@@ -1,0 +1,59 @@
+html{
+    font-size: 62.5%;background-color: rgb(7, 2, 42);
+}
+.container{
+    text-align: center;
+}
+h1{
+    font-size: 6rem;
+    color: green ;
+    font-family: sans-serif;
+    margin-top: 6rem;
+}
+h3{
+    color: green;
+    font-size: 3rem
+}
+.image1{
+    width: 4rem;
+    height: 4rem;
+}
+.image2{
+    width: 4rem;
+    height: 4rem;
+}
+.game-container{
+    display: flex;
+    /* flex-direction: ; */
+    justify-content: center;
+    align-items: center;
+
+}
+.p1{
+    margin-top: 1rem;
+    margin-right: 8rem;
+}
+.p2{
+    margin-top: 1rem;
+    /* margin-right: 6rem; */
+}
+footer{
+    font-size: 1rem ;
+    margin-top: 2rem;
+    color: white;
+}
+@media screen and (max-width:495px){
+    h1{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:306px){
+    h3{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:306px){
+    h3{
+        font-size: 2rem;
+    }
+}
